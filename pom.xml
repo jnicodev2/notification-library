@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.jnicodev</groupId>
-    <artifactId>notification</artifactId>
+    <artifactId>notification-library</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
