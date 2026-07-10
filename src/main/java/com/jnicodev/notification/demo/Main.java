@@ -1,4 +1,4 @@
-package com.jnicodev.notification;
+package com.jnicodev.notification.demo;
 
 import com.jnicodev.notification.builder.Providers;
 import com.jnicodev.notification.channel.NotificationChannel;

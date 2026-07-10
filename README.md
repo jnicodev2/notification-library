@@ -38,6 +38,44 @@ implementation 'com.jnicodev:notification-library:1.0.0'
 ```
 
 ---
+# Ejecutar con Docker
+
+La librería incluye una aplicación de ejemplo (`Main`) que demuestra el uso de los tres canales soportados: **Email**, **SMS** y **Push Notifications**.
+
+## Requisitos
+
+* Docker 24 o superior
+
+## Construir la imagen
+
+Desde la raíz del proyecto ejecuta:
+
+```bash
+docker build -t notification-library .
+```
+
+## Ejecutar el contenedor
+
+```
+docker run --rm notification-library
+```
+
+Al iniciar el contenedor se compilará el proyecto y se ejecutará la aplicación de ejemplo, mostrando en consola la simulación del envío de notificaciones para los proveedores configurados.
+
+
+> **Nota:** Todos los envíos son simulados. La librería no realiza conexiones HTTP reales ni consume los servicios de SendGrid, Mailgun, Twilio o Firebase. El objetivo es demostrar la arquitectura, el desacoplamiento entre canales y proveedores, y la facilidad para extender la solución.
+
+## Ejecutar sin Docker
+
+También puedes ejecutar la aplicación de ejemplo directamente con Maven:
+
+```
+mvn clean compile exec:java -Dexec.mainClass=com.jnicodev.notification.demo.Main
+```
+
+Esto ejecutará exactamente el mismo ejemplo que se utiliza dentro del contenedor Docker.
+
+---
 
 # Quick Start
 
