@@ -3,8 +3,6 @@ package com.jnicodev.notification.provider.email.mailgun;
 import com.jnicodev.notification.config.MailgunConfiguration;
 import com.jnicodev.notification.dto.mailgun.MailgunRequest;
 import com.jnicodev.notification.dto.mailgun.MailgunResponse;
-import com.jnicodev.notification.dto.sendgrid.SendGridRequest;
-import com.jnicodev.notification.dto.sendgrid.SendGridResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

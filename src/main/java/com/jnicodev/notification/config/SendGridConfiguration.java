@@ -1,7 +1,5 @@
 package com.jnicodev.notification.config;
 
-import java.util.Objects;
-
 public class SendGridConfiguration {
 
     private final String apiKey;

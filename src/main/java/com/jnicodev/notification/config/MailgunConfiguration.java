@@ -1,7 +1,5 @@
 package com.jnicodev.notification.config;
 
-import java.util.Objects;
-
 public class MailgunConfiguration {
 
     private final String apiKey;

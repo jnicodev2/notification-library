@@ -1,6 +1,5 @@
 package com.jnicodev.notification.provider.email.mailgun;
 
-
 import com.jnicodev.notification.dto.NotificationRequest;
 import com.jnicodev.notification.dto.NotificationResult;
 import com.jnicodev.notification.channel.email.EmailSender;
